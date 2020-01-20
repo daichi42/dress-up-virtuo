@@ -2,23 +2,35 @@
 <html>
   <head>
     <title>CSS/HTML Workshop with govirtuo.com</title>
+    <link rel='stylesheet' href='style.css'/>
   </head>
   <body>
-    <div id="car">
-      <input class="js-name" type="text" placeholder="Car name"/>
-      <input class="js-price-by-day" type="number" placeholder="Price by day"/>
-      <input class="js-price-by-km" type="number" placeholder="Price by km"/>
-    </div>
-    <div id="rental">
-      <input class="js-name" type="text" placeholder="Driver name"/>
-      <input class="js-begin" type="date" placeholder="Rental begin date"/>
-      <input class="js-end" type="date" placeholder="Rental end date"/>
-      <input class="js-distance" type="number" placeholder="Distance in km"/>
-      <input class="js-option" type="checkbox" placeholder="Deductible option"/>
-    </div>
-    <button id="compute">Compute</button>
+    <h3><span>HTML</span> & <span> CSS</span> Workshop with govirtuo.com </h3>
+<form>
+  <div id="car">
+    <input class="js-name" type="text" placeholder="Car name"/>
+    <input class="js-price-by-day" type="number" placeholder="Price by day"/>
+    <input class="js-price-by-km" type="number" placeholder="Price by km"/>
+  </div>
+</form>
+<form>
+  <div id="rental">
+    <input class="js-name" type="text" placeholder="Driver name"/>
+    <input class="js-begin" type="date" placeholder="Rental begin date"/>
+    <input class="js-end" type="date" placeholder="Rental end date"/>
+    <input class="js-distance" type="number" placeholder="Distance in km"/>
+    <label>Click if you want the deductible option </label>
+    <input class="js-option" type="checkbox" placeholder="Deductible option"/>
+  </div>
+</form>
+<div>
+ <button id="compute">Compute</button>
+</div>
     <div id="actors"></div>
     <script src="virtuo.js"></script>
     <script src="index.js"></script>
+<div>
+  <label1> made by <span>Stéphane Richard</span> </label1>
+</div>
   </body>
 </html>
